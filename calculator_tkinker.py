@@ -249,8 +249,8 @@ root.bind("C", key_press)
 # label = tk.Label(root, text="Calculator", font=('Arial', 16))
 # label.pack(padx=20, pady=1)
 
-result = tk.Text(root, height=2, font=('Arial', 24))
-result.pack(padx=10, pady=10)
+result = tk.Text(root, height=1, font=('Arial', 72))
+result.pack(padx=10, pady=8)
 insert_result(1.0, "0")
 
 # button = tk.Button(root, text='Click Me !', font=('Arial', 18))
